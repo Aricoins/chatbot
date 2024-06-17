@@ -23,7 +23,7 @@ async function main() {
 
       // Call the API with user input & history
       const completion = await openai.createChatCompletion({
-        model: 'gpt-3.5-turbo',
+        model: 'gpt-4o',
         messages: messages,
       });
 
